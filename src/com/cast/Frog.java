@@ -16,7 +16,7 @@ public class Frog extends Amphibian {
     }
 
     /**
-     * 转型后调用已覆盖的方法
+     * 向上转型后调用已覆盖的方法
      * 会变成调用新类的方法。
      */
     public void walk() {
@@ -24,7 +24,7 @@ public class Frog extends Amphibian {
     }
 
     /**
-     * 转型后并不能用新类的方法
+     * 向上转型后并不能用新类的方法
      */
     public void jump() {
         System.out.print("Frog is jumping");
